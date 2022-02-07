@@ -2,6 +2,8 @@
 // Any object who inherits this parent will be synchronized.
 
 // Only entities on the host's game will receive an ID in the create event.
+network_id = noone;
+
 if (global.is_host)
 {
 	global.entity_id_counter += 1;
